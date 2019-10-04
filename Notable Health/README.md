@@ -1,14 +1,13 @@
-#Notable Health Coding Challenge
-May 2018
+# Notable Health Coding Challenge
 
-##To Run:
+## To Run:
 yarn install
 npm start
 node server/server.js
 open localhost:3000
 
-##Instructions
+## Instructions
 ![instructions](./instructions.png)
 
-##Screenshot
+## Screenshot
 ![screenshot](./screenshot.png)
