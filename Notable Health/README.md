@@ -1,4 +1,4 @@
-# Notable Health Coding Challenge
+# Notable Health - Physicians Directory
 
 ## To Run:
 yarn install
