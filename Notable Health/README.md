@@ -1,4 +1,4 @@
-# Notable Health - Physicians Directory
+# Physicians Directory
 
 ## To Run:
 yarn install
