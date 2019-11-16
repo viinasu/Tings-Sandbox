@@ -1,4 +1,4 @@
-##ChatBot
+## ChatBot
 This is a chatbot engine that handles conversational interactions. It manages the complexity of natural language and controls the lifecycle of a user's interaction with the chatbox. 
 
 This engine is essentially a webserver that interacts with this [messenger UI](http://hipmunk.github.io/hipproblems/lessenger/).
@@ -11,7 +11,7 @@ For additional notes I wrote on this challenge, see this [GoogleDoc](https://doc
 
 Created on May 2018.
 
-###Features
+### Features
 #### Welcome Message
 
 When the user joins a chat with your bot, it responds with a personalized greeting. Example:
@@ -54,7 +54,7 @@ app.use(function(req, res, next) {
 });
 ```
 
-###Tech Stack
+### Tech Stack
 **Frontend:** [Messenger UI](http://hipmunk.github.io/hipproblems/lessenger/) (already provided)
 
 ```
@@ -75,11 +75,11 @@ POST /chat/messages - a route capable of receiving messages, and optionally repl
 * The DarkSky Forecast API https://darksky.net/dev/docs/forecast accepts a coordinate point and provides current weather and a forecast.
 * The Google Gecoding API https://developers.google.com/maps/documentation/geocoding/start will help you convert arbitrary strings that describe locations to coordinate points. (hint: the query param `address` doesn't need to be a fully formed address).
 
-###To Run:
+### To Run:
 `yarn install`
 `yarn start`
 
-###Architecture
+### Architecture
 **app.js**
 The entry point for our chatbot server. Handles CORs
 
@@ -109,7 +109,7 @@ holds functions that make external api calls
 2. `getGeocode(address)`: calls Google Geocoding API with address and returns coordinates (lat/ long)
 
 
-###Improvements
+### Improvements
 - Use more sophisticated [NLP](https://en.wikipedia.org/wiki/Natural_language_processing) or [NLU](https://en.wikipedia.org/wiki/Natural_language_understanding) services/packages to solve this problem.
 - Be able to handle punctuations 
 - Be able to respond to "what is the weather in <X Location>". Currently, it says "Currently, it is <temperature in X Location>"
