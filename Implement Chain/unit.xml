@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.002" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-12T07:47:05" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="done" timestamp="2019-11-12T07:47:05" tests="2" file="/Users/dylanwright/Desktop/Sites/chaining-in-javascript-4j8getoon57/test/test.js" failures="0" time="0.001">
+    <testcase name="done should return the result" time="0.001" classname="should return the result">
+    </testcase>
+    <testcase name="done should work non-sequentially" time="0" classname="should work non-sequentially">
+    </testcase>
+  </testsuite>
+  <testsuite name="add" timestamp="2019-11-12T07:47:05" tests="2" file="/Users/dylanwright/Desktop/Sites/chaining-in-javascript-4j8getoon57/test/test.js" failures="0" time="0">
+    <testcase name="add should add a single value to the chained value" time="0" classname="should add a single value to the chained value">
+    </testcase>
+    <testcase name="add should add N values to the chained value" time="0" classname="should add N values to the chained value">
+    </testcase>
+  </testsuite>
+  <testsuite name="exec" timestamp="2019-11-12T07:47:05" tests="2" file="/Users/dylanwright/Desktop/Sites/chaining-in-javascript-4j8getoon57/test/test.js" failures="0" time="0">
+    <testcase name="exec should replace the chained value with the result of executing the function argument" time="0" classname="should replace the chained value with the result of executing the function argument">
+    </testcase>
+    <testcase name="exec should pass the chained value to the function argument" time="0" classname="should pass the chained value to the function argument">
+    </testcase>
+  </testsuite>
+  <testsuite name="mixin" timestamp="2019-11-12T07:47:05" tests="2" file="/Users/dylanwright/Desktop/Sites/chaining-in-javascript-4j8getoon57/test/test.js" failures="0" time="0.001">
+    <testcase name="mixin should add a new chainable method" time="0.001" classname="should add a new chainable method">
+    </testcase>
+    <testcase name="mixin should add a new chainable method that accepts up to N arguments" time="0" classname="should add a new chainable method that accepts up to N arguments">
+    </testcase>
+  </testsuite>
+  <testsuite name="additional requirements" timestamp="2019-11-12T07:47:05" tests="2" file="/Users/dylanwright/Desktop/Sites/chaining-in-javascript-4j8getoon57/test/test.js" failures="0" time="0">
+    <testcase name="additional requirements should not execute any callables until done is called" time="0" classname="should not execute any callables until done is called">
+    </testcase>
+    <testcase name="additional requirements should be immutable; each instance method should return a new chained object" time="0" classname="should be immutable; each instance method should return a new chained object">
+    </testcase>
+  </testsuite>
+</testsuites>
