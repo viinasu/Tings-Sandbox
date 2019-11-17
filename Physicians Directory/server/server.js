@@ -37,6 +37,7 @@ const createNewAppointmentForPhysicianId = (physicianId, details) => {
 // allAppointments.splice(0, 1);
 console.log(allAppointments);
 
+//this allows the server to serve the entire directory up to the client as static files eg. assets
 app.use(express.static(__dirname));
 app.use(bodyParser.json());
 
