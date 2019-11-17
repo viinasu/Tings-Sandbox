@@ -3,7 +3,7 @@ Physicians Directory is a full stack webapp (FE, BE, DB) that displays physician
 
 ![instructions](./instructions.png)
 
-![screenshot](screenshot.gif)
+![screenshot](screenshot.png)
 
 Created on May 2018.
 
